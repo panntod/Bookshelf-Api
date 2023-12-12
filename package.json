@@ -6,16 +6,19 @@
   "scripts": {
     "start": "node src/server.js",
     "start-dev": "nodemon src/server.js",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "pandhu arya munjalindra",
   "license": "ISC",
   "dependencies": {
     "@hapi/hapi": "^21.3.2",
-    "nanoid": "^3.3.7",
-    "nodemon": "^3.0.2"
+    "nanoid": "^3.3.7"
   },
   "devDependencies": {
-    "eslint": "^8.55.0"
+    "eslint": "^8.55.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "nodemon": "^3.0.2"
   }
 }
